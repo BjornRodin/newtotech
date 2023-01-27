@@ -97,8 +97,23 @@ h1, h2 {
 /* About section */
 
 #about {
-    height: 300px;
+    height: 200px;
     text-align: center;
     padding: 5px;
     margin: 10px 10%;
+}
+
+#about-core {
+    height: 400px;
+}
+
+#left-align {
+    float: left;
+    width: 40%;
+}
+
+#right-align {
+    float: right;
+    width: 40%;
+    padding: 5px;
 }
