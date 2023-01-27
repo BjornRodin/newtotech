@@ -105,15 +105,16 @@ h1, h2 {
 
 #about-core {
     height: 400px;
+    width: 100%;
 }
 
 #left-align {
     float: left;
-    width: 40%;
+    width: 50%;
 }
 
 #right-align {
     float: right;
-    width: 40%;
+    width: 50%;
     padding: 5px;
 }
