@@ -7,13 +7,13 @@
 }
 
 body {
-    color: brown;
+    color: #000;
     font-family: Poppins, sans-serif;
     font-weight: 300;
 }
 
 h1, h2 {
-    color: #000000;
+    color: #000;
     font-family: Unbounded, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
@@ -36,6 +36,11 @@ h1, h2 {
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#logo, #menu {
+    line-height: 100px;
 }
 
 #menu li {
@@ -46,4 +51,5 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
+    color: inherit;
 }
