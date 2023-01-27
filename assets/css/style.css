@@ -21,8 +21,12 @@ h1, h2 {
 
 /* Navigation bar and logo */
 
-.menu-right {
+.float-right {
     float: right;
+}
+
+.float-left {
+    float: left;
 }
 
 .active {
