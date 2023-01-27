@@ -12,10 +12,6 @@ body {
     font-weight: 300;
 }
 
-h1 {
-    float: 0;
-}
-
 h1, h2 {
     color: #000000;
     font-family: Unbounded, sans-serif;
@@ -23,12 +19,21 @@ h1, h2 {
     text-decoration: none;
 }
 
+.menu-right {
+    float: right;
+}
+
 #logo {
     font-size: 250%;
+    float: left;
 }
 
 #menu li {
-    float: right;
+    font-size: 120%;
+    float: left;
+    margin-right: 40px;
+    letter-spacing: 2px;
+    list-style-type: none;
 }
 
 #menu a {
