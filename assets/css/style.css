@@ -10,14 +10,10 @@ body {
     color: brown;
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    background-image: url('../images/pexels-sindre-fs-1144176.jpg');
-    background-repeat: no repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 h1 {
-    float: left;
+    float: 0;
 }
 
 h1, h2 {
@@ -25,10 +21,6 @@ h1, h2 {
     font-family: Unbounded, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-#hero-image {
-    background-image: url('../images/pexels-product-school-2678468.jpg');
 }
 
 #logo {
