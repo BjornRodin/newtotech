@@ -19,6 +19,8 @@ h1, h2 {
     text-decoration: none;
 }
 
+/* Navigation bar and logo */
+
 .menu-right {
     float: right;
 }
@@ -26,13 +28,19 @@ h1, h2 {
 #logo {
     font-size: 250%;
     float: left;
+    padding-left: 5%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
 }
 
 #menu li {
-    font-size: 120%;
     float: left;
     margin-right: 40px;
-    letter-spacing: 2px;
     list-style-type: none;
 }
 
