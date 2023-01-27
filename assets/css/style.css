@@ -16,14 +16,13 @@ body {
     background-size: cover;
 }
 
-header {
+#background-header {
     background-color: #BDA69E;
     opacity: 0.5;
 }
 
 h1 {
     text-align: center;
-    text
 }
 
 h1, h2 {
