@@ -7,18 +7,22 @@
 }
 
 body {
-    color: blue;
+    color: brown;
     font-family: Poppins, sans-serif;
     font-weight: 300;
     background-image: url('../images/pexels-sindre-fs-1144176.jpg');
     background-repeat: no repeat;
     background-attachment: fixed;
     background-size: cover;
+}
 
+header {
+    background-color: #BDA69E;
+    opacity: 0.5;
 }
 
 h1, h2 {
-    color: red;
+    color: #000000;
     font-family: Unbounded, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
