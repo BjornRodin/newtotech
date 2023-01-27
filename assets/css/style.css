@@ -65,10 +65,27 @@ h1, h2 {
 
 /* Hero Image */
 
+#hero-restriction {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 500px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
-    overflow: hidden;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1.0);
+    }
 }
