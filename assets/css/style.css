@@ -25,6 +25,10 @@ h1, h2 {
     float: right;
 }
 
+.active {
+    border-bottom: 2px solid #000;
+}
+
 #logo {
     font-size: 250%;
     float: left;
@@ -52,4 +56,9 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #000;
+    color: #F2784B;
 }
