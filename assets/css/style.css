@@ -89,3 +89,12 @@ h1, h2 {
         transform: scale(1.0);
     }
 }
+
+/* About section */
+
+#about {
+    height: 300px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 10%;
+}
