@@ -169,6 +169,7 @@ header div {
     height: fit-content;
     border: 2px solid #000;
     margin: 10px;
+    border-radius: 25px;
 }
 
 /* End of upcoming meetups */
