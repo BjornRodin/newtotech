@@ -26,11 +26,16 @@ h1, h2 {
 
 /* Start of Navigation bar and logo */
 
+header h1 {
+    color: #fff;
+}
+
 header div {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    color: #fff;
+    background-color: #364954;
     z-index: 1;
 }
 
@@ -43,11 +48,11 @@ header div {
 }
 
 .active {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
 }
 
 .logo {
-    font-size: 250%;
+    font-size: 220%;
     float: left;
     padding-left: 5%;
     letter-spacing: 2px;
