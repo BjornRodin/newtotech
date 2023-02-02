@@ -163,7 +163,7 @@ header div {
 /* Start of footer */
 
 footer {
-    line-height: 120px;
+    line-height: 80px;
     background-color: #364954;
 }
 
@@ -183,7 +183,7 @@ footer a:hover {
 
 .social-media li {
     display: inline;
-    padding: 5%;
+    padding: 5% 2.5% 0;
 }
 
 .social-media i {
@@ -191,9 +191,10 @@ footer a:hover {
 }
 
 #copyright {
-    font-size: small;
+    font-size: 0.5rem;
     color: #fff;
     padding: 0;
+    margin: 0;
 }
 
 
