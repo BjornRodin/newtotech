@@ -130,11 +130,6 @@ h1, h2 {
     width: 50%;
 }
 
-.about-image img {
-    width: 100%;
-    overflow: hidden;
-}
-
 /*
 .inline-block div {
     display: inline-block;
