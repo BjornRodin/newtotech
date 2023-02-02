@@ -33,7 +33,7 @@ h1, h2 {
     border-bottom: 2px solid #000;
 }
 
-#logo {
+.logo {
     font-size: 250%;
     float: left;
     padding-left: 5%;
@@ -41,28 +41,28 @@ h1, h2 {
     list-style-type: none;
 }
 
-#menu {
+.menu {
     font-size: 120%;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-#logo, #menu {
+.logo, .menu {
     line-height: 100px;
 }
 
-#menu li {
+.menu li {
     float: left;
     margin-right: 40px;
     list-style-type: none;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 2px solid #000;
     color: #F2784B;
 }
