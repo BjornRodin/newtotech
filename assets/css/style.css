@@ -136,20 +136,31 @@ h1, h2 {
 /* Start of footer */
 
 footer {
-    height: 120px;
+    line-height: 120px;
 }
 
 footer a {
     text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    color: green;
 }
 
 .social-media {
     text-align: center;
-    font-size: 100%;
+    
 }
 
 .social-media li {
     display: inline;
     padding: 5%;
 }
+
+.social-media i {
+    font-size: 200%;
+}
+
+
 
