@@ -183,6 +183,18 @@ header div {
     border-radius: 25px;
 }
 
+/* Form within upcoming meetups section */
+
+.submit-button {
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 100%;
+    background-color: #364954;
+    color: #fff;
+    text-align: center;
+}
+
 /* End of upcoming meetups */
 
 /* Start of footer */
