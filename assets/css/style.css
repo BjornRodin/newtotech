@@ -133,3 +133,8 @@ h1, h2 {
 
 /* End of About section */
 
+/* Start of footer */
+
+footer {
+    height: 120px;
+}
