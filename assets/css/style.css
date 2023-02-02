@@ -163,7 +163,7 @@ header div {
 
 /* Start of upcoming meetups */
 
-#border-box  div {
+#border-box > div {
     box-sizing: border-box;
     width: 100%;
     height: fit-content;
