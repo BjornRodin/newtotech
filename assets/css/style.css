@@ -21,6 +21,12 @@ h1, h2 {
 
 /* Start of Navigation bar and logo */
 
+header div {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .float-right {
     float: right;
 }
