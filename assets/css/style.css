@@ -195,6 +195,11 @@ header div {
     text-align: center;
 }
 
+.submit-button:hover {
+    background-color: #E6CDB7;
+    color: #000;
+}
+
 /* End of upcoming meetups */
 
 /* Start of footer */
