@@ -177,7 +177,7 @@ header div {
 #border-box > div {
     box-sizing: border-box;
     width: 100%;
-    height: fit-content;
+    height: 250px;
     border: 2px solid #000;
     margin: 10px;
     border-radius: 25px;
@@ -185,7 +185,14 @@ header div {
 
 /* Form within upcoming meetups section */
 
-.submit-button {
+.input-meetup-section input {
+    background: transparent;
+    width: 200px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+
+#submit-button {
     margin: 5px;
     border-radius: 5px;
     padding: 10px 20px;
@@ -195,7 +202,7 @@ header div {
     text-align: center;
 }
 
-.submit-button:hover {
+#submit-button:hover {
     background-color: #E6CDB7;
     color: #000;
 }
