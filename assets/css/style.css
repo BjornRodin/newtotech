@@ -163,12 +163,16 @@ header div {
 
 /* Start of upcoming meetups */
 
+.float-right {
+    text-align: right;
+}
+/*
 .div-block-inline > div {
     display: inline-block;
     width: 45%;
     max-height: fit-content;
     background-color: pink;
-}
+} */
 
 #border-box > div {
     box-sizing: border-box;
