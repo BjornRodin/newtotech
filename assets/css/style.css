@@ -15,7 +15,7 @@ body {
     background-color: #CDD2D5;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #000;
     font-family: Unbounded, sans-serif;
     text-transform: uppercase;
@@ -161,6 +161,15 @@ header div {
 
 /* End of About section */
 
+/* Start of upcoming meetups */
+
+.upcoming-meetups div {
+    width: 25%;
+    display: inline;
+}
+
+/* End of upcoming meetups */
+
 /* Start of footer */
 
 footer {
@@ -198,5 +207,6 @@ footer a:hover, small:hover {
     margin: 0;
 }
 
+/* End of Footer */
 
 
