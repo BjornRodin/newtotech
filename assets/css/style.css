@@ -96,6 +96,19 @@ h1, h2 {
 
 /* About section */
 
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.inline-block div {
+    display: inline-block;
+}
+
 #about {
     height: 200px;
     text-align: center;
@@ -104,8 +117,10 @@ h1, h2 {
 }
 
 #about-core {
-    height: 400px;
-    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #left-align {
