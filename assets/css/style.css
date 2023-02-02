@@ -125,6 +125,14 @@ header div {
     margin: 30px 0;
 }
 
+.rounded-corner-image {
+    border-radius: 25px;
+}
+
+.section-center-align p, h2 {
+    padding: 10px;
+}
+
 .about-core div {
     width: 50%;
 }
