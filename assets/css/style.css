@@ -25,6 +25,8 @@ header div {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .float-right {
@@ -91,6 +93,7 @@ header div {
     animation-name: hero-image-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
+    z-index: 0;
 }
 
 @keyframes hero-image-zoom {
