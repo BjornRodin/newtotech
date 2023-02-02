@@ -100,6 +100,20 @@ h1, h2 {
 
 /* Start of About section */
 
+.section-center-align {
+    height: 200px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 10%;
+}
+
+.about-core {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .about-image {
     width: 50%;
 }
@@ -115,23 +129,12 @@ h1, h2 {
     overflow: hidden;
 }
 
+/*
 .inline-block div {
     display: inline-block;
 }
+Outcommented code*/ 
 
-.section-center-align {
-    height: 200px;
-    text-align: center;
-    padding: 5px;
-    margin: 10px 10%;
-}
-
-#about-core {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 #left-align {
     float: left;
