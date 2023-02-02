@@ -138,3 +138,18 @@ h1, h2 {
 footer {
     height: 120px;
 }
+
+footer a {
+    text-decoration: none;
+}
+
+.social-media {
+    text-align: center;
+    font-size: 100%;
+}
+
+.social-media li {
+    display: inline;
+    padding: 5%;
+}
+
