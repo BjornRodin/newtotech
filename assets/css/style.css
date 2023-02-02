@@ -190,5 +190,11 @@ footer a:hover {
     font-size: 200%;
 }
 
+#copyright {
+    font-size: small;
+    color: #fff;
+    padding: 0;
+}
+
 
 
