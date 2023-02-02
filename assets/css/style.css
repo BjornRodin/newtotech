@@ -81,8 +81,8 @@ header div {
 }
 
 .menu a:hover {
-    border-bottom: 2px solid #000;
-    color: #F2784B;
+    border-bottom: 2px solid #fff;
+    color: #E6CDB7;
 }
 
 /* End of navigation bar and logo */
@@ -172,8 +172,8 @@ footer a {
     color: #fff;
 }
 
-footer a:hover {
-    color: green;
+footer a:hover, small:hover {
+    color: #E6CDB7;
 }
 
 .social-media {
