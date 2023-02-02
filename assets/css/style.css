@@ -163,9 +163,12 @@ header div {
 
 /* Start of upcoming meetups */
 
-.upcoming-meetups div {
-    width: 25%;
-    display: inline;
+#border-box  div {
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid #000;
+    margin: 10px;
 }
 
 /* End of upcoming meetups */
