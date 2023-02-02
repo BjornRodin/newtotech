@@ -67,9 +67,11 @@ h1, h2 {
     color: #F2784B;
 }
 
+/* End of navigation bar and logo */
+
 /* Hero Image */
 
-#hero-restriction {
+.hero-restriction {
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -81,7 +83,7 @@ h1, h2 {
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-image-zoom;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 
