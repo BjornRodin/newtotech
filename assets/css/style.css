@@ -41,6 +41,10 @@ header {
     opacity: 0.9;
 }
 
+/*div .align-left, .align-right {
+    display: inline-block;
+}*/
+
 .align-left {
     text-align: left;
 }
@@ -49,13 +53,6 @@ header {
     text-align: right;
 }
 
-/*.float-right {
-    float: right;
-}
-
-.float-left {
-    float: left;
-}*/
 
 .active {
     border-bottom: 2px solid #fff;
@@ -63,7 +60,6 @@ header {
 
 .logo {
     font-size: 220%;
-    
     padding-left: 5%;
     letter-spacing: 2px;
     list-style-type: none;
