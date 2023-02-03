@@ -293,10 +293,6 @@ footer a:hover, small:hover {
         z-index: 1;
     }
 
-    .dropdown-button i {
-        padding-right: 5%;
-    }
-
     .dropdown-button:hover {
         color: #E6CDB7;
     }
