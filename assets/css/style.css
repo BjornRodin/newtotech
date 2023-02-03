@@ -213,7 +213,7 @@ header div {
     float: right;
 }
 
-#submit-button:hover {
+#submit-button:hover, .input-meetup-section input:hover {
     background-color: #E6CDB7;
     color: #000;
 }
