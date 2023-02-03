@@ -289,8 +289,10 @@ footer a:hover, small:hover {
     .dropdown-items {
         display: none;
         position: absolute;
-        background-color: #CDD2D5;
+        background-color: #364954;
+        color: #f2f2f2;
         z-index: 1;
+        font-size: 80%;
     }
 
     .dropdown-button:hover {
@@ -298,13 +300,14 @@ footer a:hover, small:hover {
     }
 
     #dropdown {
-        padding-left: 55%;
+        padding-left: 45%;
         position: relative;
         display: inline-block;
     }
 
     #dropdown:hover .dropdown-items {
         display: block;
+        padding-left: 10px;
     }
 
 }
