@@ -176,7 +176,7 @@ header div {
 
 #border-box > div {
     box-sizing: border-box;
-    width: 100%;
+    width: 40%;
     height: 250px;
     border: 2px solid #000;
     margin: 10px;
