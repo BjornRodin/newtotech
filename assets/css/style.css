@@ -26,11 +26,12 @@ h1, h2, h3 {
 
 /* Start of Navigation bar and logo */
 
-header h1 {
+/*header h1 {
     color: #fff;
-}
+    z-index: 2;
+}*/
 
-header div {
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,13 +41,21 @@ header div {
     opacity: 0.9;
 }
 
-.float-right {
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/*.float-right {
     float: right;
 }
 
 .float-left {
     float: left;
-}
+}*/
 
 .active {
     border-bottom: 2px solid #fff;
@@ -54,10 +63,11 @@ header div {
 
 .logo {
     font-size: 220%;
-    float: left;
+    
     padding-left: 5%;
     letter-spacing: 2px;
     list-style-type: none;
+    color: #fff;
 }
 
 .menu {
@@ -75,9 +85,10 @@ header div {
 }
 
 .menu li {
-    float: left;
+    /*float: left;*/
     margin-right: 40px;
     list-style-type: none;
+    display: inline-block;
 }
 
 .menu a {
