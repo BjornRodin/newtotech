@@ -143,6 +143,10 @@ header div {
     border-radius: 25px;
 }
 
+.remove-above-950 {
+    display: none;
+}
+
 .section-center-align p, h2 {
     padding: 10px 2.5%;
 }
@@ -279,6 +283,10 @@ footer a:hover, small:hover {
 
     .remove-under-950 {
         display: none;
+    }
+
+    .remove-above-950 {
+        display: block;
     }
 
     .dropdown-button {
