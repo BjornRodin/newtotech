@@ -66,7 +66,7 @@ header div {
     text-transform: uppercase;
 }
 
-.dropdown {
+.dropdown-button {
     display: none;
 }
 
@@ -276,7 +276,21 @@ footer a:hover, small:hover {
 
 /* For screens up to 950px wide */
 @media screen and (max-width: 950px) {
+    .nav-under-950 {
+        display: none;
+    }
+
     .dropdown-button {
-        font-size: 120%;
+        display: block;
+        font-size: 200%;
+        float: right;
+        line-height: 100px;
+        padding-right: 5%;
+        background-color: inherit;
+        color: inherit;
+    }
+
+    .dropdown-items {
+
     }
 }
