@@ -175,10 +175,15 @@ header div {
     color: #f2f2f2;
 } 
 
+#border-box h3 {
+    color: #f2f2f2;
+    padding: 5px;
+}
+
 #border-box > div {
     box-sizing: border-box;
     width: 40%;
-    height: 250px;
+    min-height: 300px;
     border: 2px solid #000;
     margin: 10px;
     border-radius: 25px;
@@ -187,10 +192,14 @@ header div {
 /* Form within upcoming meetups section */
 
 .input-meetup-section input {
-    background: transparent;
+    background: #CDD2D5;
     width: 200px;
     margin: 5px;
-    border: 1px solid #fff;
+    border: 1px solid #f2f2f2;
+}
+
+#slackusername {
+    height: 25px;
 }
 
 #submit-button {
