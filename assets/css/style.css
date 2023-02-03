@@ -37,6 +37,7 @@ header div {
     color: #fff;
     background-color: #364954;
     z-index: 1;
+    opacity: 0.9;
 }
 
 .float-right {
