@@ -169,7 +169,7 @@ header div {
 
 .div-block-inline > div {
     display: inline-block;
-    width: 45%;
+    width: 40%;
     max-height: fit-content;
     background-color: pink;
 } 
