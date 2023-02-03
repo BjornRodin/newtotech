@@ -171,7 +171,8 @@ header div {
     display: inline-block;
     width: 40%;
     max-height: fit-content;
-    background-color: pink;
+    background-color: #364954;
+    color: #f2f2f2;
 } 
 
 #border-box > div {
@@ -189,7 +190,7 @@ header div {
     background: transparent;
     width: 200px;
     margin: 5px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
 }
 
 #submit-button {
@@ -197,8 +198,8 @@ header div {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 100%;
-    background-color: #364954;
-    color: #fff;
+    background-color: #CDD2D5;
+    color: #000;
     text-align: center;
 }
 
