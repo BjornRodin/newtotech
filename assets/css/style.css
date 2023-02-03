@@ -279,11 +279,9 @@ footer a:hover, small:hover {
 
     .nav-under-950 {
         display: none;
-        position: relative;
     }
 
-
-    .dropdown-button {
+    /*.dropdown-button {
         display: block;
         font-size: 200%;
         float: right;
@@ -292,54 +290,27 @@ footer a:hover, small:hover {
         background-color: inherit;
         color: inherit;
         cursor: pointer;
-    }
+    }*/
 
     .dropdown-items {
         display: none;
+        position: absolute;
+        background-color: #CDD2D5;
+        z-index: 1;
     }
 
     .dropdown-button:hover {
         color: #E6CDB7;
     }
 
-    ol:hover {
-        display: block;
-    }
-
-    li {
-        background: #CDD2D5;
-        padding: 10px;
-        list-style: none;
-    }
-
-    li:hover {
-        background: #E6CDB7;
-        cursor: pointer;
-    }
-
-    .dropdown-button {
-        display: inline-block;
-        padding: 10px;
-        background: pink;
-        color: white;
-    }
-
-    .menu {
+    #dropdown {
+        float: right;
+        position: relative;
         display: inline-block;
     }
 
-    .menu:active ol {
-        display: block;
-    }
-    
-    .menu:active ol:hover {
+    #dropdown:hover .dropdown-items {
         display: block;
     }
 
-    .menu:active .dropdown-button {
-        display: inline-block;
-        padding: 10px;
-        background: pink;
-        color: white;
-    }
 }
