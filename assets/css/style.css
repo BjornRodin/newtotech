@@ -276,5 +276,7 @@ footer a:hover, small:hover {
 
 /* For screens up to 950px wide */
 @media screen and (max-width: 950px) {
-
+    .dropdown-button {
+        font-size: 120%;
+    }
 }
