@@ -193,7 +193,7 @@ header div {
 
 .input-meetup-section input {
     background: #CDD2D5;
-    width: 200px;
+    width: 60%;
     margin: 5px;
     border: 1px solid #f2f2f2;
 }
@@ -203,13 +203,14 @@ header div {
 }
 
 #submit-button {
-    margin: 5px;
-    border-radius: 5px;
-    padding: 10px 20px;
+    margin: 5px 5%;
+    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
     font-size: 100%;
     background-color: #CDD2D5;
     color: #000;
-    text-align: center;
+    float: right;
 }
 
 #submit-button:hover {
