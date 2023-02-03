@@ -141,7 +141,7 @@ header div {
 }
 
 .section-center-align p, h2 {
-    padding: 10px;
+    padding: 10px 2.5%;
 }
 
 .about-core div {
@@ -154,11 +154,6 @@ header div {
     overflow: hidden;
 }
 
-.about-text {
-    text-align: left;
-    margin-left: 20px;
-    width: 50%;
-}
 
 /* End of About section */
 
@@ -175,6 +170,11 @@ header div {
     background-color: #364954;
     color: #f2f2f2;
 } 
+
+.div-block-inline h3, p, input {
+    padding: 10px 2.5%;
+    margin: 5px 2.5%;
+}
 
 #border-box h3 {
     color: #f2f2f2;
@@ -195,7 +195,6 @@ header div {
 .input-meetup-section input {
     background: #CDD2D5;
     width: 60%;
-    margin: 5px;
     border: 1px solid #f2f2f2;
 }
 
@@ -204,9 +203,7 @@ header div {
 }
 
 #submit-button {
-    margin: 5px 5%;
     border-radius: 15px;
-    padding: 10px;
     width: fit-content;
     font-size: 100%;
     background-color: #CDD2D5;
