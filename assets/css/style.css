@@ -281,16 +281,16 @@ footer a:hover, small:hover {
         display: none;
     }
 
-    /*.dropdown-button {
+    .dropdown-button {
         display: block;
-        font-size: 200%;
+        /*font-size: 200%;
         float: right;
         line-height: 100px;
         padding-right: 5%;
         background-color: inherit;
         color: inherit;
-        cursor: pointer;
-    }*/
+        cursor: pointer;*/
+    }
 
     .dropdown-items {
         display: none;
