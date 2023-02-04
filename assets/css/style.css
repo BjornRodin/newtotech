@@ -264,8 +264,9 @@ footer a:hover, small:hover {
         height: auto;
         margin: 0 auto;
     }
-    .about-core img {
-        max-width: 100%;
+
+    #under-950 {
+        margin: 0 auto 100px auto;
     }
 }
 
