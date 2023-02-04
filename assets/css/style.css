@@ -39,7 +39,6 @@ header {
 header > div {
     width: 90%;
     margin: 0 5%;
-    background-color: pink; /* just for testing, will be removed */
 }
 
 ol > li {
@@ -88,91 +87,6 @@ header > div > div {
     color: inherit;
     text-transform: uppercase;
 }
-
-/*.align-left {
-    display: flex;
-}
-
-.align-right {
-    margin-right: auto;
-}*/
-
-#green {
-    background-color: green; /* just for testing, will be removed */
-}
-
-#yellow {
-    background-color: yellow; /* just for testing, will be removed */
-}
-
-/*header h1 {
-    color: #fff;
-    z-index: 2;
-}*/
-
-/* will try some new coding.
-
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    color: #fff;
-    background-color: #364954;
-    z-index: 1;
-    opacity: 0.9;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.align-right {
-    text-align: right;
-}
-
-
-.active {
-    border-bottom: 2px solid #fff;
-}
-
-.logo {
-    font-size: 220%;
-    padding-left: 5%;
-    letter-spacing: 2px;
-    list-style-type: none;
-    color: #fff;
-}
-
-.menu {
-    font-size: 120%;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.dropdown-button {
-    display: none;
-}
-
-.logo, .menu {
-    line-height: 100px;
-}
-
-.menu li {
-    margin-right: 40px;
-    list-style-type: none;
-    display: inline-block;
-}
-
-.menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.menu a:hover {
-    border-bottom: 2px solid #fff;
-    color: #E6CDB7;
-}
-*/
 
 /* End of navigation bar and logo */
 
