@@ -41,6 +41,31 @@ header > div {
     background-color: pink;
 }
 
+header > div > div {
+    display: inline-block;
+}
+
+#flexdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.align-left {
+    display: flex;
+}
+
+.align-right {
+    margin-right: auto;
+}*/
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
 /*header h1 {
     color: #fff;
     z-index: 2;
