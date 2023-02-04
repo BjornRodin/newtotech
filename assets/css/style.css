@@ -30,7 +30,6 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    color: #f2f2f2;
     background-color: #364954;
     opacity: 0.9;
     line-height: 100px;
@@ -39,7 +38,7 @@ header {
 header > div {
     width: 90%;
     margin: 0 5%;
-    background-color: pink;
+    background-color: pink; /* just for testing, will be removed */
 }
 
 ol > li {
@@ -52,6 +51,7 @@ header > div > div {
 
 .menu {
     letter-spacing: 2px;
+    font-size: 120%;
 }
 
 .dropdown-button {
@@ -76,11 +76,11 @@ header > div > div {
 }*/
 
 #green {
-    background-color: green;
+    background-color: green; /* just for testing, will be removed */
 }
 
 #yellow {
-    background-color: yellow;
+    background-color: yellow; /* just for testing, will be removed */
 }
 
 /*header h1 {
