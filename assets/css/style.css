@@ -152,7 +152,6 @@ header > div > div {
 .about-core img {
     max-height: 400px;
     max-width: 100%;
-    overflow: hidden;
     border-radius: 25px;
 }
 
