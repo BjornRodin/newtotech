@@ -137,9 +137,9 @@ header > div > div {
     margin: 30px 0;
 }
 
-.rounded-corner-image {
+/*.rounded-corner-image {
     border-radius: 25px;
-}
+} */
 
 .remove-above-950 {
     display: none;
@@ -153,12 +153,20 @@ header > div > div {
     width: 50%;
 }
 
-.about-core img {
+/*.about-core img {
     max-height: 400px;
     width: auto;
     overflow: hidden;
-}
+}*/
 
+#meetup-image {
+    max-height: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    background-image: url('../images/meetup.jpg');
+    background-size: cover;
+}
 
 /* End of About section */
 
