@@ -31,6 +31,8 @@ h1, h2, h3 {
     z-index: 2;
 }*/
 
+/* will try some new coding.
+
 header {
     position: fixed;
     top: 0;
@@ -40,10 +42,6 @@ header {
     z-index: 1;
     opacity: 0.9;
 }
-
-/*div .align-left, .align-right {
-    display: inline-block;
-}*/
 
 .align-left {
     text-align: left;
@@ -81,7 +79,6 @@ header {
 }
 
 .menu li {
-    /*float: left;*/
     margin-right: 40px;
     list-style-type: none;
     display: inline-block;
@@ -96,6 +93,7 @@ header {
     border-bottom: 2px solid #fff;
     color: #E6CDB7;
 }
+*/
 
 /* End of navigation bar and logo */
 
@@ -110,7 +108,7 @@ header {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    /*background: url('../images/hero-image.jpg') no-repeat center center;*/
     background-size: cover;
     animation-name: hero-image-zoom;
     animation-duration: 8s;
