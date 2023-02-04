@@ -312,11 +312,21 @@ footer a:hover, small:hover {
     }
 
     .remove-above-950 {
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 
     #border-box > div {
         width: 45%;
     }
 
+}
+
+/* For screens up to 650px wide */
+
+@media screen and (max-width: 650px) {
+
+    .about-core div {
+        width: 100%;
+    }
 }
