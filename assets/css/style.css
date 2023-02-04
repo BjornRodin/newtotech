@@ -33,6 +33,7 @@ header {
     color: #f2f2f2;
     background-color: #364954;
     opacity: 0.9;
+    line-height: 100px;
 }
 
 header > div {
@@ -41,12 +42,16 @@ header > div {
     background-color: pink;
 }
 
+ol > li {
+    display: inline;
+}
+
 header > div > div {
     display: inline-block;
 }
 
 .menu {
-    display: inline;
+    letter-spacing: 2px;
 }
 
 .dropdown-button {
@@ -56,6 +61,10 @@ header > div > div {
 #flexdiv {
     display: flex;
     justify-content: space-between;
+}
+
+#flexdiv a {
+    text-decoration: none;
 }
 
 /*.align-left {
