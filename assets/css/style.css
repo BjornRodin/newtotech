@@ -269,6 +269,40 @@ footer a:hover, small:hover {
     }
 }
 
+/* For screens up to 1000px wide */
+
+@media screen and (max-width: 1000px) {
+    .dropdown-button {
+        display: block;
+        font-size: 200%;
+        background-color: pink;
+    }
+
+    .dropdown-items {
+        display: none;
+        position: absolute;
+        background-color: #364954;
+        color: #f2f2f2;
+        z-index: 1;
+        font-size: 80%;
+    }
+
+    .dropdown-button:hover {
+        color: #E6CDB7;
+    }
+
+    #dropdown {
+        padding-left: 45%;
+        position: relative;
+        display: inline-block;
+    }
+
+    #dropdown:hover .dropdown-items {
+        display: block;
+        padding-left: 10px;
+    }
+}
+
 /* For screens up to 950px wide */
 @media screen and (max-width: 950px) {
 
