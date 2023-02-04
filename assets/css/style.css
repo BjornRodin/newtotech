@@ -265,7 +265,7 @@ footer a:hover, small:hover {
         margin: 0 auto;
     }
 
-    #under-950 {
+    #under-1200px {
         margin: 0 auto 100px auto;
     }
 }
@@ -316,41 +316,8 @@ footer a:hover, small:hover {
         display: block;
     }
 
-    .dropdown-button {
-        display: block;
-        font-size: 200%;
-    }
-
-    .dropdown-items {
-        display: none;
-        position: absolute;
-        background-color: #364954;
-        color: #f2f2f2;
-        z-index: 1;
-        font-size: 80%;
-    }
-
-    .dropdown-button:hover {
-        color: #E6CDB7;
-    }
-
     #border-box > div {
         width: 45%;
-    }
-
-    #under-950 {
-        margin: 0 auto 100px auto;
-    }
-
-    #dropdown {
-        padding-left: 45%;
-        position: relative;
-        display: inline-block;
-    }
-
-    #dropdown:hover .dropdown-items {
-        display: block;
-        padding-left: 10px;
     }
 
 }
