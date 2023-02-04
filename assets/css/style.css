@@ -45,6 +45,14 @@ header > div > div {
     display: inline-block;
 }
 
+.menu {
+    display: inline;
+}
+
+.dropdown-button {
+    display: none;
+}
+
 #flexdiv {
     display: flex;
     justify-content: space-between;
