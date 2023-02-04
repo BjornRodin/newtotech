@@ -164,9 +164,6 @@ header > div > div {
 
 /* Start of upcoming meetups */
 
-.float-right {
-    text-align: right;
-}
 
 .div-block-inline > div {
     display: inline-block;
