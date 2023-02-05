@@ -205,7 +205,7 @@ header > div > div {
     font-size: 100%;
     background-color: #CDD2D5;
     color: #000;
-    float: right;
+    /*float: right;*/
 }
 
 #submit-button:hover, .input-meetup-section input:hover {
