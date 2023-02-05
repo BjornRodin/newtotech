@@ -347,4 +347,14 @@ footer a:hover, small:hover {
         margin: 0 10% 0 10%;
         max-height: fit-content;
     }
+
+    .div-block-inline > div {
+        display: block;
+        width: 80%;
+    } 
+
+    #border-box > div {
+        width: 100%;
+        margin: 0 0 10px;
+    }
 }
