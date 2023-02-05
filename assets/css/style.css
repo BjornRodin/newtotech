@@ -156,7 +156,7 @@ header > div > div {
 
 /* End of About section */
 
-/* Start of upcoming meetups */
+/* Start of upcoming meetups & coding languages section */
 
 
 .div-block-inline > div {
@@ -170,6 +170,11 @@ header > div > div {
 .div-block-inline h3, input {
     padding: 10px 2.5%;
     margin: 5px 2.5%;
+}
+
+#coding-languages li {
+    text-align: left;
+    list-style-type: square;
 }
 
 #border-box h3 {
@@ -211,7 +216,7 @@ header > div > div {
     color: #000;
 }
 
-/* End of upcoming meetups */
+/* End of upcoming meetups & coding languages */
 
 /* Start of footer */
 
