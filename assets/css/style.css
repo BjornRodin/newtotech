@@ -326,6 +326,10 @@ footer a:hover, small:hover {
 
 @media screen and (max-width: 650px) {
 
+    .logo {
+        font-size: 180%;
+    }
+
     .about-core {
         display: block;
     }
