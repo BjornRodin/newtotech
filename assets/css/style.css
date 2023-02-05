@@ -326,7 +326,21 @@ footer a:hover, small:hover {
 
 @media screen and (max-width: 650px) {
 
+    .about-core {
+        display: block;
+    }
+    
     .about-core div {
         width: 100%;
+    }
+
+    .remove-under-650px {
+        display: none;
+    }
+
+    .about-core img {
+        width: 80%;
+        margin: 0 10% 0 10%;
+        max-height: fit-content;
     }
 }
