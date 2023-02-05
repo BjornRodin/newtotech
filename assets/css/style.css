@@ -256,6 +256,24 @@ footer a:hover, small:hover {
 
 /* Media queries */
 
+@media screen and (min-width: 1921px) {
+    
+    html {
+        background-color: #99AEBB;
+    }
+    
+    body {
+        box-sizing: border-box;
+        max-width: 1920px;
+        margin: 0 auto;
+        border-color: 2px solid #364954;
+    }
+
+    header {
+        max-width: 1920px;
+    }
+}
+
 /* For screens up to 1200px wide */
 @media screen and (max-width: 1200px) {
     .section-center-align {
