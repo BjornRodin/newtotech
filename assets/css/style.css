@@ -332,6 +332,11 @@ footer a:hover, small:hover {
         justify-content: center;
     }
 
+    .about-core img {
+        max-height: 550px;
+        margin: 0 auto;
+    }
+
     #border-box > div {
         width: 45%;
     }
