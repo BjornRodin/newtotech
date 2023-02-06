@@ -172,10 +172,12 @@ header > div > div {
     margin: 5px 2.5%;
 }
 
-#coding-languages li {
+#coding-list {
+    list-style-type: none;
     text-align: left;
-    list-style-type: square;
+    margin: 10px 2.5%;
 }
+
 
 #border-box h3 {
     color: #f2f2f2;
