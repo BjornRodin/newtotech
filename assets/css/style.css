@@ -20,6 +20,7 @@ h1, h2, h3 {
     font-family: Unbounded, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 4px;
 }
 
 /* End General styling */
@@ -179,9 +180,13 @@ header > div > div {
 }
 
 .coding-list a {
-    text-decoration: underline;
+    text-decoration: none;
     color: inherit;
     text-transform: uppercase;
+}
+
+.coding-list a:hover {
+    color: #E6CDB7;
 }
 
 
