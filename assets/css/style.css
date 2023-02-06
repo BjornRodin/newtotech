@@ -179,6 +179,10 @@ header > div > div {
     margin: 5% 5%;
 }
 
+.coding-list i {
+    font-size: 1.5rem;
+}
+
 .coding-list a {
     text-decoration: none;
     color: inherit;
