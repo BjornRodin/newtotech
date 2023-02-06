@@ -172,10 +172,16 @@ header > div > div {
     margin: 5px 2.5%;
 }
 
-#coding-list {
-    list-style-type: none;
+.coding-list {
+    list-style-position: inside;
     text-align: left;
-    margin: 10px 2.5%;
+    margin: 5% 5%;
+}
+
+.coding-list a {
+    text-decoration: underline;
+    color: inherit;
+    text-transform: uppercase;
 }
 
 
