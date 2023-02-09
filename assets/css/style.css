@@ -277,6 +277,14 @@ header > div > div {
 
 /* End of upcoming meetups & coding languages */
 
+/* Start of Gallery */
+
+#gallery-images {
+    line-height: 0;
+    column-gap: 0;
+    column-count: 3;
+}
+
 /* Start of footer */
 
 footer {
