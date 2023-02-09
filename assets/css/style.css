@@ -120,6 +120,17 @@ header > div > div {
     z-index: 0;
 }
 
+#hero-image-gallery {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image-gallery.jpg') no-repeat center center;
+    background-size: cover;
+    animation-name: hero-image-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    z-index: 0;
+}
+
 @keyframes hero-image-zoom {
     from {
         transform: scale(1.1);
@@ -130,6 +141,15 @@ header > div > div {
 }
 
 @keyframes hero-image-programming-zoom {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes hero-image-gallery-zoom {
     from {
         transform: scale(1.1);
     }
