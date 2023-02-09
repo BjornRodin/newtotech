@@ -310,6 +310,18 @@ header > div > div {
     width: 100%;
 }
 
+/* End of Gallery */
+
+/* Start of Contact page */
+
+.input-contact-section input {
+    background: #CDD2D5;
+    width: 25%;
+    border: 1px solid #f2f2f2;
+}
+
+/* End of Contact page */
+
 /* Start of footer */
 
 footer {
