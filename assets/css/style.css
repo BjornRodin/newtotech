@@ -314,9 +314,31 @@ header > div > div {
 
 /* Start of Contact page */
 
+.form-block > div {
+    display: inline-block;
+    min-width: 25%;
+    min-height: 300px;
+    background-color: #364954;
+    color: #f2f2f2;
+}
+
+.form-block form {
+    text-align: left;
+}
+
+#contact-form-box > div {
+    box-sizing: border-box;
+    width: fit-content;
+    min-height: 300px;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 1% 1% 2%;
+    border-radius: 25px;
+}
+
 .input-contact-section input {
     background: #CDD2D5;
-    width: 25%;
+    width: 80%;
     border: 1px solid #f2f2f2;
 }
 
