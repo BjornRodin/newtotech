@@ -316,7 +316,7 @@ header > div > div {
 
 .form-block > div {
     display: inline-block;
-    min-width: 25%;
+    min-width: 45%;
     min-height: 300px;
     background-color: #364954;
     color: #f2f2f2;
@@ -324,6 +324,7 @@ header > div > div {
 
 .form-block form {
     text-align: left;
+    padding: 20px;
 }
 
 #contact-form-box > div {
@@ -338,7 +339,7 @@ header > div > div {
 
 .input-contact-section input {
     background: #CDD2D5;
-    width: 80%;
+    width: 90%;
     border: 1px solid #f2f2f2;
 }
 
