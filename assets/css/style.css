@@ -290,7 +290,7 @@ header > div > div {
     color: #000;
 }
 
-#submit-button:hover, .input-meetup-section input:hover {
+#submit-button:hover, .input-meetup-section input:hover, .input-contact-section input:hover {
     background-color: #E6CDB7;
     color: #000;
 }
