@@ -215,7 +215,7 @@ header > div > div {
 
 #big-box > div {
     box-sizing: border-box;
-    width: 80%;
+    width: 82%;
     min-height: 300px;
     border: 2px solid #000;
     margin: 10px;
