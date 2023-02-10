@@ -496,10 +496,6 @@ small:hover {
 
 @media screen and (max-width: 650px) {
 
-    /*footer {
-        margin: 0 auto;
-    }*/
-
     .logo {
         font-size: 180%;
     }
@@ -547,5 +543,26 @@ small:hover {
 
     #gallery-images {
         column-count: 1;
+    }
+}
+
+/* For screens up to 400px wide */
+
+@media screen and (max-width: 400px) {
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .logo {
+        font-size: 120%;
+    }
+
+    .social-media i {
+        font-size: 100%;
+    }
+
+    #copyright {
+        font-size: 0.4rem;
     }
 }
