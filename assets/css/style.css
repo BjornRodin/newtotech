@@ -95,13 +95,18 @@ header>div>div {
 
 /* Start of Hero Image */
 
+.hero-restriction {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
 .hero-image-general {
     height: 500px;
     width: 100%;
     animation-name: hero-image-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
-    overflow: hidden;
 }
 
 .hero-image-index {
@@ -170,8 +175,8 @@ header>div>div {
 
 .section-center-align {
     height: auto;
+    width: 90%;
     text-align: center;
-    padding: 5px;
     margin: 60px 5%;
 }
 
@@ -206,25 +211,9 @@ h2 {
 
 /* Start of upcoming meetups & coding languages section */
 
-
-.div-block-inline>div {
-    display: inline-block;
-    width: 40%;
-    max-height: fit-content;
-    background-color: #364954;
-    color: #f2f2f2;
-}
-
-.div-block-inline h3,
-input {
-    padding: 10px 2.5%;
-    margin: 5px 2.5%;
-}
-
 .coding-list {
     list-style-position: inside;
     text-align: left;
-    margin: 5% 5%;
 }
 
 .coding-list h3 {
@@ -248,19 +237,22 @@ input {
     background-color: #E6CDB7;
 }
 
-.border-box h3 {
+.div-block-inline h3,
+input {
+    padding: 10px 2.5%;
+    margin: 5px 2.5%;
     color: #f2f2f2;
-    padding: 5px;
 }
 
-.big-box h3 {
+.div-block-inline>div {
+    display: inline-block;
+    background-color: #364954;
     color: #f2f2f2;
-    padding: 5px;
 }
 
 .border-box>div {
     box-sizing: border-box;
-    width: 40%;
+    width: 45%;
     min-height: 300px;
     border: 2px solid #000;
     margin: 10px;
@@ -270,7 +262,7 @@ input {
 
 .big-box>div {
     box-sizing: border-box;
-    width: 82%;
+    width: 100%;
     min-height: 300px;
     border: 2px solid #000;
     margin: 10px;
@@ -315,25 +307,13 @@ input {
 
 /* Start of Sign Up page */
 
-.form-block>div {
-    display: inline-block;
-    width: 600px;
-    min-height: 300px;
-    background-color: #364954;
-    color: #f2f2f2;
+.signup-form-box .submit-button-signup {
+    width: 95.5%;
 }
 
 .form-block form {
     text-align: left;
     padding: 20px;
-}
-
-.signup-form-box>div {
-    box-sizing: border-box;
-    border: 2px solid #000;
-    margin: 10px;
-    padding: 1% 1% 2%;
-    border-radius: 25px;
 }
 
 .input-signup-section input {
@@ -345,8 +325,17 @@ input {
     color: #000;
 }
 
-.signup-form-box .submit-button-signup {
-    width: 95.5%;
+.signup-form-box>div {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 1% 1% 2%;
+    border-radius: 25px;
+    display: inline-block;
+    width: 600px;
+    min-height: 300px;
+    background-color: #364954;
+    color: #f2f2f2;
 }
 
 /* End of Sign Up page */
@@ -354,7 +343,7 @@ input {
 /* Start of footer */
 
 footer {
-    line-height: 80px;
+    /*line-height: 120px;*/
     background-color: #364954;
 }
 
@@ -371,6 +360,7 @@ small:hover {
 .social-media {
     text-align: center;
     letter-spacing: 2px;
+    padding: 25px 0 10px;
 }
 
 .social-media li {
@@ -387,6 +377,7 @@ small:hover {
     color: #f2f2f2;
     padding: 0;
     margin: 0;
+    line-height: 50px;
 }
 
 /* End of Footer */
@@ -414,8 +405,6 @@ small:hover {
 /* For screens up to 1200px wide */
 @media screen and (max-width: 1200px) {
     .section-center-align {
-        width: 90%;
-        height: auto;
         margin: 0 auto;
     }
 
@@ -476,14 +465,6 @@ small:hover {
         margin: 0 auto;
     }
 
-    .border-box>div {
-        width: 45%;
-    }
-
-    .big-box>div {
-        width: 92.5%;
-    }
-
     .gallery-images {
         column-count: 2;
     }
@@ -512,32 +493,26 @@ small:hover {
 
     .about-core img {
         width: 80%;
-        margin: 0 10% 0 10%;
         max-height: fit-content;
     }
 
     .div-block-inline>div {
         display: block;
-        width: 80%;
+        width: 100%;
+        margin: 0 0 10px;
     }
 
-    .form-block>div {
+    .signup-form-box>div {
         width: 100%;
         margin: 0 auto;
-    }
-
-    .border-box>div {
-        width: 100%;
-        margin: 0 0 10px;
-    }
-
-    .big-box>div {
-        width: 100%;
-        margin: 0 0 10px;
     }
 }
 
 @media screen and (max-width: 500px) {
+
+    .about-core img {
+        width: 100%;
+    }
 
     .gallery-images {
         column-count: 1;
