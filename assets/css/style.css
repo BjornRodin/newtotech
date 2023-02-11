@@ -80,12 +80,12 @@ header>div>div {
     border-bottom: 2px solid #f2f2f2;
 }
 
-#flexdiv {
+.flexdiv {
     display: flex;
     justify-content: space-between;
 }
 
-#flexdiv a {
+.flexdiv a {
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
@@ -101,7 +101,7 @@ header>div>div {
     overflow: hidden;
 }
 
-#hero-image {
+.hero-image {
     height: 500px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
@@ -112,7 +112,7 @@ header>div>div {
     z-index: 0;
 }
 
-#hero-image-programming {
+.hero-image-programming {
     height: 500px;
     width: 100%;
     background: url('../images/hero-image-programming.jpg') no-repeat center center;
@@ -123,7 +123,7 @@ header>div>div {
     z-index: 0;
 }
 
-#hero-image-gallery {
+.hero-image-gallery {
     height: 500px;
     width: 100%;
     background: url('../images/hero-image-gallery.jpg') no-repeat center center;
@@ -248,17 +248,17 @@ input {
     background-color: #E6CDB7;
 }
 
-#border-box h3 {
+.border-box h3 {
     color: #f2f2f2;
     padding: 5px;
 }
 
-#big-box h3 {
+.big-box h3 {
     color: #f2f2f2;
     padding: 5px;
 }
 
-#border-box>div {
+.border-box>div {
     box-sizing: border-box;
     width: 40%;
     min-height: 300px;
@@ -268,7 +268,7 @@ input {
     border-radius: 25px;
 }
 
-#big-box>div {
+.big-box>div {
     box-sizing: border-box;
     width: 82%;
     min-height: 300px;
@@ -284,21 +284,12 @@ input {
     background: #CDD2D5;
     width: 60%;
     border: 1px solid #f2f2f2;
-}
-
-#slackusername {
-    height: 25px;
-}
-
-#submit-button {
-    border-radius: 15px;
-    width: fit-content;
+    border-radius: 10px;
     font-size: 100%;
-    background-color: #CDD2D5;
     color: #000;
 }
 
-#submit-button:hover,
+.submit-button:hover,
 .input-meetup-section input:hover,
 .input-contact-section input:hover {
     background-color: #E6CDB7;
@@ -309,14 +300,14 @@ input {
 
 /* Start of Gallery */
 
-#gallery-images {
+.gallery-images {
     column-gap: 0;
     line-height: 0;
     column-count: 3;
     background-color: #364954;
 }
 
-#gallery-images>img {
+.gallery-images>img {
     width: 100%;
 }
 
@@ -349,6 +340,13 @@ input {
     background: #CDD2D5;
     width: 90%;
     border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    font-size: 100%;
+    color: #000;
+}
+
+.contact-form-box .submit-button-contact {
+    width: 95.5%;
 }
 
 /* End of Contact page */
@@ -384,7 +382,7 @@ small:hover {
     font-size: 200%;
 }
 
-#copyright {
+.copyright {
     font-size: 0.5rem;
     color: #fff;
     padding: 0;
@@ -421,7 +419,7 @@ small:hover {
         margin: 0 auto;
     }
 
-    #under-1200px {
+    .under-1200px {
         margin: 0 auto 100px auto;
     }
 }
@@ -448,12 +446,12 @@ small:hover {
         color: #E6CDB7;
     }
 
-    #dropdown {
+    .dropdown {
         position: relative;
         display: inline-block;
     }
 
-    #dropdown:hover .dropdown-items {
+    .dropdown:hover .dropdown-items {
         display: block;
         padding: 0 10px;
         right: 0;
@@ -478,15 +476,15 @@ small:hover {
         margin: 0 auto;
     }
 
-    #border-box>div {
+    .border-box>div {
         width: 45%;
     }
 
-    #big-box>div {
+    .big-box>div {
         width: 92.5%;
     }
 
-    #gallery-images {
+    .gallery-images {
         column-count: 2;
     }
 
@@ -528,12 +526,12 @@ small:hover {
         margin: 0 auto;
     }
 
-    #border-box>div {
+    .border-box>div {
         width: 100%;
         margin: 0 0 10px;
     }
 
-    #big-box>div {
+    .big-box>div {
         width: 100%;
         margin: 0 0 10px;
     }
@@ -541,7 +539,7 @@ small:hover {
 
 @media screen and (max-width: 500px) {
 
-    #gallery-images {
+    .gallery-images {
         column-count: 1;
     }
 }
@@ -562,7 +560,7 @@ small:hover {
         font-size: 100%;
     }
 
-    #copyright {
+    .copyright {
         font-size: 0.4rem;
     }
 }
