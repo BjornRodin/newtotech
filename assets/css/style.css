@@ -101,37 +101,32 @@ header>div>div {
     overflow: hidden;
 }
 
-.hero-image {
+.hero-image-general {
     height: 500px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: cover;
     animation-name: hero-image-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
-    z-index: 0;
+}
+
+.hero-image-index {
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .hero-image-programming {
-    height: 500px;
-    width: 100%;
     background: url('../images/hero-image-programming.jpg') no-repeat center center;
     background-size: cover;
-    animation-name: hero-image-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
-    z-index: 0;
 }
 
 .hero-image-gallery {
-    height: 500px;
-    width: 100%;
     background: url('../images/hero-image-gallery.jpg') no-repeat center center;
     background-size: cover;
-    animation-name: hero-image-zoom;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
-    z-index: 0;
+}
+
+.hero-image-signup {
+    background: url('../images/hero-image-signup.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 @keyframes hero-image-zoom {
@@ -155,6 +150,16 @@ header>div>div {
 }
 
 @keyframes hero-image-gallery-zoom {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes hero-image-signup-zoom {
     from {
         transform: scale(1.1);
     }
@@ -360,7 +365,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #fff;
+    color: #f2f2f2;
 }
 
 footer a:hover,
@@ -384,7 +389,7 @@ small:hover {
 
 .copyright {
     font-size: 0.5rem;
-    color: #fff;
+    color: #f2f2f2;
     padding: 0;
     margin: 0;
 }
