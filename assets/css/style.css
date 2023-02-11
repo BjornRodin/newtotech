@@ -343,7 +343,6 @@ input {
 /* Start of footer */
 
 footer {
-    /*line-height: 120px;*/
     background-color: #364954;
 }
 
@@ -381,6 +380,24 @@ small:hover {
 }
 
 /* End of Footer */
+
+/* Start of Thank You page */
+
+.thank-you {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-background {
+    background-image: url('../images/thank-you.jpg');
+    width: 100%;
+    height: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* End of Thank You page */
 
 /* Media queries */
 
