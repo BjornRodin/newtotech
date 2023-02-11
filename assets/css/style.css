@@ -95,18 +95,13 @@ header>div>div {
 
 /* Start of Hero Image */
 
-.hero-restriction {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-}
-
 .hero-image-general {
     height: 500px;
     width: 100%;
     animation-name: hero-image-zoom;
     animation-duration: 8s;
     animation-fill-mode: forwards;
+    overflow: hidden;
 }
 
 .hero-image-index {
@@ -296,7 +291,7 @@ input {
 
 .submit-button:hover,
 .input-meetup-section input:hover,
-.input-contact-section input:hover {
+.input-signup-section input:hover {
     background-color: #E6CDB7;
     color: #000;
 }
@@ -318,7 +313,7 @@ input {
 
 /* End of Gallery */
 
-/* Start of Contact page */
+/* Start of Sign Up page */
 
 .form-block>div {
     display: inline-block;
@@ -333,7 +328,7 @@ input {
     padding: 20px;
 }
 
-.contact-form-box>div {
+.signup-form-box>div {
     box-sizing: border-box;
     border: 2px solid #000;
     margin: 10px;
@@ -341,7 +336,7 @@ input {
     border-radius: 25px;
 }
 
-.input-contact-section input {
+.input-signup-section input {
     background: #CDD2D5;
     width: 90%;
     border: 1px solid #f2f2f2;
@@ -350,11 +345,11 @@ input {
     color: #000;
 }
 
-.contact-form-box .submit-button-contact {
+.signup-form-box .submit-button-signup {
     width: 95.5%;
 }
 
-/* End of Contact page */
+/* End of Sign Up page */
 
 /* Start of footer */
 
