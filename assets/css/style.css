@@ -110,7 +110,7 @@ header>div>div {
 }
 
 .hero-image-index {
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
