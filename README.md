@@ -27,10 +27,37 @@ Meetup-Hub is a site for people around the world who is interested in programmin
         - [Sign Up](#sign-up)
         - [Thank You](#thank-you)
     - [Future Features](#future-features)
+- [Testing](#testing)
+    - [User Stories Testing](#user-stories-testing)
+        - [As a first time visitor I want to understand the main purpose of the site](#as-a-first-time-visitor-i-want-to-understand-the-main-purpose-of-the-site)
+        - [As a first time visitor I want to know where I can find the community on social media](#as-a-first-time-visitor-i-want-to-know-where-i-can-find-the-community-on-social-media)
+        - [As a first time visitor I want to learn more about programming](#as-a-first-time-visitor-i-want-to-learn-more-about-programming)
+        - [As a first time visitor I want to be able to sign up to the community](#as-a-first-time-visitor-i-want-to-be-able-to-sign-up-to-the-community)
+        - [As a first time visitor I want to see pictures of earlier Meetups to know how they might have looked and been conducted](#as-a-first-time-visitor-i-want-to-see-pictures-of-earlier-meetups-to-know-how-they-might-have-looked-and-been-conducted)
+        - [As a first time visitor I want to get feedback when submitting to the forms](#as-a-first-time-visitor-i-want-to-get-feedback-when-submitting-to-the-forms)
+        - [As a returning visitor I want to easily see planned Meetups, what they will focus on, what time they will occur and easily attend](#as-a-returning-visitor-i-want-to-easily-see-planned-meetups-what-they-will-focus-on-what-time-they-will-occur-and-easily-attend)
+        - [As a returning visitor I want to learn more about programming](#as-a-returning-visitor-i-want-to-learn-more-about-programming)
+        - [As a returning visitor I want to see pictures of earlier Meetups](#as-a-returning-visitor-i-want-to-see-pictures-of-earlier-meetups)
+        - [As a administrator I want to provide the user with a site that is easy to navigate](#as-a-administrator-i-want-to-provide-the-user-with-a-site-that-is-easy-to-navigate)
+        - [As a administrator I want to make it easy to find us on social media](#as-a-administrator-i-want-to-make-it-easy-to-find-us-on-social-media)
+        - [As a administrator I want to aid in teaching about programming](#as-a-administrator-i-want-to-aid-in-teaching-about-programming)
+        - [As a administrator I want to make sign up forms as quickly as possible for the user to fill](#as-a-administrator-i-want-to-make-sign-up-forms-as-quickly-as-possible-for-the-user-to-fill)
+        - [As a administrator I want to provide the sense of a close community even if the meetups is on digital platforms](#as-a-administrator-i-want-to-provide-the-sense-of-a-close-community-even-if-the-meetups-is-on-digital-platforms)
+        - [As a administrator I want to offer a clear view of what meetups that is planned and what the users can expect from them](#as-a-administrator-i-want-to-offer-a-clear-view-of-what-meetups-that-is-planned-and-what-the-users-can-expect-from-them)
+    - [Automated Testing](#automated-testing)
+        - [W3C Markup Validation Service](#w3c-markup-validation-service)
+        - [W3C CSS Validation Service](#w3c-css-validation-service)
+        - [Google Lighthouse Performance Test](#google-lighthouse-performance-test)
+            - [Warnings](#warnings)
+    [Manual Testing](#manual-testing)
+        - [Features Test](#features-test)
+        - [Browser](#browser)
+        - [Responsiveness](#responsiveness)
 - [Technologies](#technologies)
 - [Deployment](#deployment)
     - [Deployment Github Pages](#deployment-github-pages)
     - [Cloning Repository](#cloning-repository)
+    - [Open Cloned Repository](#open-cloned-repository)
     - [Version Control](#version-control)
 - [Credits](#credits)
     - [Media](#media)
@@ -180,59 +207,182 @@ To create the general idea of the site [Balsamiq](https://balsamiq.com/) was use
 
 ### User Stories Testing
 
-#### As a first time visitor I want to understand the main purpose of the site.
+#### As a first time visitor I want to understand the main purpose of the site
 - The home page of the website present the user with a clear hero-image that show a group of people meeting up. This was chosen to show the user a connection between the name of the page and the purpose.
 - In the about section of the home page there is a clear message that we are a community that shares ideas and knowledge with eachother.
 - Under the 'What do we do?' section it is explained what we are doing and what you can expect. Images that are shown here is connected to their respective part to engage the visitor. 
 - In the 'Upcoming Meetups' the visitor will quickly see that there is meetups to sign up to, what they are regarding and at what times.
-#### As a first time visitor I want to know where I can find the community on social media.
+#### As a first time visitor I want to know where I can find the community on social media
 - In the footer, on each of the pages on the website, there is clear symbols of the different social media.
 - When hovering over them it is indicated to the visitor that they are clickable.
-#### As a first time visitor I want to learn more about programming.
+#### As a first time visitor I want to learn more about programming
 - On the home page under 'Programming Introduction' it is mentioned that the user can go to the programming page.
 - On the programming page the user can read more about programming in general.
 - On the same page it is clear links to the different programming languages that are mentioned where the user can read more about them.
-#### As a first time visitor I want to be able to sign up to the community.
+#### As a first time visitor I want to be able to sign up to the community
 - In the navigation bar, which is the same across the website, there is a 'Sign Up' page to the very right. 
 - The form is very simple and clear for the user, when submitting they are presented with a 'Thank you' page to acknowledge the user that the submission went correctly.
-#### As a first time visitor I want to see pictures of earlier Meetups to know how they might have looked and been conducted.
+#### As a first time visitor I want to see pictures of earlier Meetups to know how they might have looked and been conducted
 - In the navigation bar there is a 'Gallery' page.
 - When going to the gallery the user is presented with pictures so they can see how the meetups has been done.
-#### As a first time visitor I want to get feedback when submitting to the forms.
+#### As a first time visitor I want to get feedback when submitting to the forms
 - When submitting information on the forms the user is presented with a 'Thank you' page to know the submission went correctly.
-#### As a returning visitor I want to easily see planned Meetups, what they will focus on, what time they will occur and easily attend.
+#### As a returning visitor I want to easily see planned Meetups, what they will focus on, what time they will occur and easily attend
 - On the home page a returning user can easily see planned meetups.
 - They will also have all the information that is needed for signing up and know the times and what the focus will be.
 - Each meetup also have a sign up so the user can easily sign up and then attend the meeting.
-#### As a returning visitor I want to learn more about programming.
+#### As a returning visitor I want to learn more about programming
 - The user can easily navigate to the 'Programming' page where they can find more information about programming.
 - On the same page several programming languages is presented and the user can find links for each of them to read more about them.
 - The user can attend meetups and listen to discussions other programmers have and learn by that.
-#### As a returning visitor I want to see pictures of earlier Meetups.
+#### As a returning visitor I want to see pictures of earlier Meetups
 - User can navigate to the 'Gallery' page and see the pictures.
 - This page will continuously be updated with more pictures.
-#### As a administrator I want to provide the user with a site that is easy to navigate.
+#### As a administrator I want to provide the user with a site that is easy to navigate
 - The header with the navigation bar has the same look on each page which makes navigation easy for the user.
 - Overall the pages are designed the same way to not draw too much attention except for presenting the user with content.
-#### As a administrator I want to make it easy to find us on social media.
+#### As a administrator I want to make it easy to find us on social media
 - By having all the social media icons in the footer the users can easily find us on social media.
 - The footer look the same on all pages.
 - Icons in the footer are clickable and when users hover over them it is clearly shown that they can interract with those icons by clicking them.
-#### As a administrator I want to aid in teaching about programming.
+#### As a administrator I want to aid in teaching about programming
 - We dedicate one entire page for programming.
 - In the programming section we help users to find informationa about programming.
-#### As a administrator I want to make sign up forms as quickly as possible for the user to fill.
+#### As a administrator I want to make sign up forms as quickly as possible for the user to fill
 - We have kept the forms as simple as we can by not making users have to fill huge amount of information.
-#### As a administrator I want to provide the sense of a close community even if the meetups is on digital platforms.
+#### As a administrator I want to provide the sense of a close community even if the meetups is on digital platforms
 - By having the gallery we can engage the users by showing them how they are done.
 - In the pictures users can see clearly that we are meeting up in different ways across the globe.
 - The social media and Slack is used to make people engage more in the community.
-#### As a administrator I want to offer a clear view of what meetups that is planned and what the users can expect from them.
+#### As a administrator I want to offer a clear view of what meetups that is planned and what the users can expect from them
 - On the home page there is a section specifically for upcoming meetups.
 - The user can see what the focus will be, what day and time and they can also sign up by only entering their slack username in the form.
 
 ### Automated Testing
 #### W3C Markup Validation Service
+- index.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+
+    ![Index.html test](readme-images/W3C-index-test.JPG)
+- programming.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Programming.html test](readme-images/W3C-programming-test.JPG)
+- gallery.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Gallery.html test](readme-images/W3C-gallery-test.JPG)
+- signup.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Signup.html test](readme-images/W3C-signup-test.JPG)
+- thank-you.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Thank-you.html test](readme-images/W3C-thankyou-test.JPG)
+
+#### W3C CSS Validation Service
+- index.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+
+    ![Index.html CSStest](readme-images/W3C-index-CSStest.JPG)
+- programming.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Programming.html CSStest](readme-images/W3C-programming-CSStest.JPG)
+- gallery.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Gallery.html CSStest](readme-images/W3C-gallery-CSStest.JPG)
+- signup.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Signup.html CSStest](readme-images/W3C-signup-CSStest.JPG)
+- thank-you.html
+    - Result
+        - According to the image below there is no errors or warnings to show.
+    
+    ![Thank-you.html CSStest](readme-images/W3C-thankyou-CSStest.JPG)
+
+#### Google Lighthouse Performance Test
+The tests are all made in the same way:
+1. In incognito-mode
+2. The same configuration is used, showed in below image. Only 'Device' was changed in between the tests.
+    - ![Lightouse Configuration](readme-images/Lighthouse-configuration.JPG)
+- index.html Desktop
+
+    ![Index.html Lighthouse](readme-images/lighthouse-index-desktop.JPG)
+- index.html Mobile
+    
+    ![Index.html Lighthouse Mobile](readme-images/lighthouse-index-mobile.JPG)
+- programming.html Desktop
+    
+    ![Programming.html Lighthouse](readme-images/lighthouse-programming-desktop.JPG)
+- programming.html Mobile
+
+    ![Programming.html Lighthouse Mobile](readme-images/lighthouse-programming-mobile.JPG)
+- gallery.html Desktop
+    
+    ![Gallery.html Lighthouse](readme-images/lighthouse-gallery-desktop.JPG)
+- gallery.html Mobile
+    
+    ![Gallery.html Lighthouse Mobile](readme-images/lighthouse-gallery-mobile.JPG)
+- signup.html Desktop
+
+    ![Signup.html Lighthouse](readme-images/lighthouse-signup-desktop.JPG)
+- signup.html Mobile
+    
+    ![Signup.html Lighthouse Mobile](readme-images/lighthouse-signup-mobile.JPG)
+- thank-you.html Desktop
+    
+    ![Thank-you.html Lighthouse](readme-images/lighthouse-thankyou-desktop.JPG)
+- thank-you.html Mobile
+    
+    ![Thank-you.html Lighthouse Mobile](readme-images/lighthouse-thankyou-mobile.JPG)
+
+##### Warnings
+I had the same warning on all pages, see picture below.  but a solution was found.
+- ![Warning Lighthouse](readme-images/lighthouse-error.JPG)
+
+After researching the issue it doesn't seem to be one that make a difference for the website. In [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) there is a comment that is, quote: "Basically you can ignore it. GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. GitHub, Microsoft, doesn't seems to like it.". The writer also give us a link to [Github](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) where they explain that all Github pages served from github.io will have a permissions-policy: interest-cohort=() header set.
+
+If we back up to the [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) again there is another comment that explains that we need to add a meta tag looking like the code below. I tried it and they were correct so I committed to the change.
+![Solution Lighthouse](readme-images/lighthouse-solution.JPG)
+
+### Manual Testing
+#### Features Test
+- index.html
+
+    ![Indexmanualtesting](readme-images/index-mantesting.JPG)
+- programming.html
+
+    ![Programmingmanualtesting](readme-images/programming-mantesting.JPG)
+- gallery.html
+
+    ![Gallerymanualtesting](readme-images/gallery-mantesting.JPG)
+- signup.html
+
+    ![Signupmanualtesting](readme-images/signup-mantesting.JPG)
+- thankyou.html
+
+    ![Thankyoumanualtesting](readme-images/thankyou-mantesting.JPG)
+#### Browser
+Tested the features and that everything looks the same on Firefox, Google Chrome and Microsoft Edge.
+
+![Browser testing](readme-images/browsertesting.JPG)
+#### Responsiveness
+All the pages was tested with different screen sizes through Developer Tools in the Google Chrome Browser.
+
+![Responsiveness](readme-images/Responsive-test.JPG)
 
 ## Technologies
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used as the main language for the project.
@@ -252,7 +402,8 @@ To create the general idea of the site [Balsamiq](https://balsamiq.com/) was use
 - [Adobe Color](https://color.adobe.com/sv/create/image) was used to extract colors from the 'meetup.jpg' image.
 - [My ColorSpace](https://mycolor.space/) Was used to find matching colors for those extracted in Adobe Color.
 - [Contrast Grid](https://contrast-grid.eightshapes.com/) Was used to see how the different color would contrast against black and white texts.
-- [Cloudconvert](https://cloudconvert.com/) was used to convert images to WEBP-format
+- [Cloudconvert](https://cloudconvert.com/) was used to convert images to WEBP-format.
+- [RedKetchup Image Resizer](https://redketchup.io/image-resizer) was used to resize images to improve performance.
 
 ## Deployment 
 
