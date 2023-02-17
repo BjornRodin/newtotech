@@ -115,17 +115,17 @@ header>div>div {
 }
 
 .hero-image-programming {
-    background: url('../images/hero-image-programming.jpg') no-repeat center center;
+    background: url('../images/hero-image-programming.webp') no-repeat center center;
     background-size: cover;
 }
 
 .hero-image-gallery {
-    background: url('../images/hero-image-gallery.jpg') no-repeat center center;
+    background: url('../images/hero-image-gallery.webp') no-repeat center center;
     background-size: cover;
 }
 
 .hero-image-signup {
-    background: url('../images/hero-image-signup.jpg') no-repeat center center;
+    background: url('../images/hero-image-signup.webp') no-repeat center center;
     background-size: cover;
 }
 
