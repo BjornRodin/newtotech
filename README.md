@@ -247,7 +247,7 @@ To create the general idea of the site [Balsamiq](https://balsamiq.com/) was use
 - Icons in the footer are clickable and when users hover over them it is clearly shown that they can interract with those icons by clicking them.
 #### As a administrator I want to aid in teaching about programming
 - We dedicate one entire page for programming.
-- In the programming section we help users to find informationa about programming.
+- In the programming section we help users to find information about programming.
 #### As a administrator I want to make sign up forms as quickly as possible for the user to fill
 - We have kept the forms as simple as we can by not making users have to fill huge amount of information.
 #### As a administrator I want to provide the sense of a close community even if the meetups is on digital platforms
@@ -351,7 +351,8 @@ The tests are all made in the same way:
 
 ##### Warnings
 I had the same warning on all pages, see picture below.  but a solution was found.
-- ![Warning Lighthouse](readme-images/lighthouse-error.JPG)
+
+![Warning Lighthouse](readme-images/lighthouse-error.JPG)
 
 After researching the issue it doesn't seem to be one that make a difference for the website. In [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) there is a comment that is, quote: "Basically you can ignore it. GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. GitHub, Microsoft, doesn't seems to like it.". The writer also give us a link to [Github](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) where they explain that all Github pages served from github.io will have a permissions-policy: interest-cohort=() header set.
 
