@@ -176,6 +176,64 @@ To create the general idea of the site [Balsamiq](https://balsamiq.com/) was use
 - Social media feeds would be added to the site to have a preview of the most recent posts.
 - The users could plan their own meetups and have them shown directly under the main ones.
 
+## Testing
+
+### User Stories Testing
+
+#### As a first time visitor I want to understand the main purpose of the site.
+- The home page of the website present the user with a clear hero-image that show a group of people meeting up. This was chosen to show the user a connection between the name of the page and the purpose.
+- In the about section of the home page there is a clear message that we are a community that shares ideas and knowledge with eachother.
+- Under the 'What do we do?' section it is explained what we are doing and what you can expect. Images that are shown here is connected to their respective part to engage the visitor. 
+- In the 'Upcoming Meetups' the visitor will quickly see that there is meetups to sign up to, what they are regarding and at what times.
+#### As a first time visitor I want to know where I can find the community on social media.
+- In the footer, on each of the pages on the website, there is clear symbols of the different social media.
+- When hovering over them it is indicated to the visitor that they are clickable.
+#### As a first time visitor I want to learn more about programming.
+- On the home page under 'Programming Introduction' it is mentioned that the user can go to the programming page.
+- On the programming page the user can read more about programming in general.
+- On the same page it is clear links to the different programming languages that are mentioned where the user can read more about them.
+#### As a first time visitor I want to be able to sign up to the community.
+- In the navigation bar, which is the same across the website, there is a 'Sign Up' page to the very right. 
+- The form is very simple and clear for the user, when submitting they are presented with a 'Thank you' page to acknowledge the user that the submission went correctly.
+#### As a first time visitor I want to see pictures of earlier Meetups to know how they might have looked and been conducted.
+- In the navigation bar there is a 'Gallery' page.
+- When going to the gallery the user is presented with pictures so they can see how the meetups has been done.
+#### As a first time visitor I want to get feedback when submitting to the forms.
+- When submitting information on the forms the user is presented with a 'Thank you' page to know the submission went correctly.
+#### As a returning visitor I want to easily see planned Meetups, what they will focus on, what time they will occur and easily attend.
+- On the home page a returning user can easily see planned meetups.
+- They will also have all the information that is needed for signing up and know the times and what the focus will be.
+- Each meetup also have a sign up so the user can easily sign up and then attend the meeting.
+#### As a returning visitor I want to learn more about programming.
+- The user can easily navigate to the 'Programming' page where they can find more information about programming.
+- On the same page several programming languages is presented and the user can find links for each of them to read more about them.
+- The user can attend meetups and listen to discussions other programmers have and learn by that.
+#### As a returning visitor I want to see pictures of earlier Meetups.
+- User can navigate to the 'Gallery' page and see the pictures.
+- This page will continuously be updated with more pictures.
+#### As a administrator I want to provide the user with a site that is easy to navigate.
+- The header with the navigation bar has the same look on each page which makes navigation easy for the user.
+- Overall the pages are designed the same way to not draw too much attention except for presenting the user with content.
+#### As a administrator I want to make it easy to find us on social media.
+- By having all the social media icons in the footer the users can easily find us on social media.
+- The footer look the same on all pages.
+- Icons in the footer are clickable and when users hover over them it is clearly shown that they can interract with those icons by clicking them.
+#### As a administrator I want to aid in teaching about programming.
+- We dedicate one entire page for programming.
+- In the programming section we help users to find informationa about programming.
+#### As a administrator I want to make sign up forms as quickly as possible for the user to fill.
+- We have kept the forms as simple as we can by not making users have to fill huge amount of information.
+#### As a administrator I want to provide the sense of a close community even if the meetups is on digital platforms.
+- By having the gallery we can engage the users by showing them how they are done.
+- In the pictures users can see clearly that we are meeting up in different ways across the globe.
+- The social media and Slack is used to make people engage more in the community.
+#### As a administrator I want to offer a clear view of what meetups that is planned and what the users can expect from them.
+- On the home page there is a section specifically for upcoming meetups.
+- The user can see what the focus will be, what day and time and they can also sign up by only entering their slack username in the form.
+
+### Automated Testing
+#### W3C Markup Validation Service
+
 ## Technologies
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used as the main language for the project.
 - [CSS](https://en.wikipedia.org/wiki/CSS) was used to style the HTML elements.
@@ -194,6 +252,7 @@ To create the general idea of the site [Balsamiq](https://balsamiq.com/) was use
 - [Adobe Color](https://color.adobe.com/sv/create/image) was used to extract colors from the 'meetup.jpg' image.
 - [My ColorSpace](https://mycolor.space/) Was used to find matching colors for those extracted in Adobe Color.
 - [Contrast Grid](https://contrast-grid.eightshapes.com/) Was used to see how the different color would contrast against black and white texts.
+- [Cloudconvert](https://cloudconvert.com/) was used to convert images to WEBP-format
 
 ## Deployment 
 
@@ -213,6 +272,11 @@ To create the general idea of the site [Balsamiq](https://balsamiq.com/) was use
 4. Type 'git clone' and then paste or type the link.
 5. Press Enter
 The project is now cloned.
+
+### Open Cloned Repository
+1. After cloning, type 'ls' and hit 'enter' to locate your repository on your computer.
+2. Locate the folder on your computer.
+3. Open the folder and double-click the 'index' file to open.
 
 ### Version Control
 - A repository was made on Github with Code Institutes Template.
