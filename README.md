@@ -363,6 +363,7 @@ I had the same warning on all pages, see picture below.  but a solution was foun
 After researching the issue it doesn't seem to be one that make a difference for the website. In [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) there is a comment that is, quote: "Basically you can ignore it. GitHub hosted pages disable FLoC, which is Google's 3rd party cookie alternative. GitHub, Microsoft, doesn't seems to like it.". The writer also give us a link to [Github](https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/) where they explain that all Github pages served from github.io will have a permissions-policy: interest-cohort=() header set.
 
 If we back up to the [Stackoverflow](https://stackoverflow.com/questions/69619035/error-with-permissions-policy-header-unrecognized-feature-interest-cohort) again there is another comment that explains that we need to add a meta tag looking like the code below. I tried it and they were correct so I committed to the change.
+
 ![Solution Lighthouse](readme-images/lighthouse-solution.JPG)
 
 ### Manual Testing
@@ -387,7 +388,7 @@ Tested the features and that everything looks the same on Firefox, Google Chrome
 
 ![Browser testing](readme-images/browsertesting.JPG)
 #### Responsiveness
-All the pages was tested with different screen sizes through Developer Tools in the Google Chrome Browser.
+All the pages was tested with different screen sizes through Developer Tools in the Google Chrome Browser. Below is also a link to 'amiresponsive' where it is also possible to see how the site look on different screen sizes at the same time.
 
 [Am I Responsive?](https://ui.dev/amiresponsive?url=https://bjornrodin.github.io/programmers-meetup-hub/)
 
