@@ -5,6 +5,11 @@ Meetup-Hub is a site for people around the world who is interested in programmin
 
 [View the live project here](https://bjornrodin.github.io/programmers-meetup-hub/)
 
+[Link to Github Repository](https://github.com/BjornRodin/programmers-meetup-hub)
+
+
+![Am I Responsive?](readme-images/introductionpic.JPG)
+
 ## Table of Content
 - [Introduction](#introduction)
 - [User Experience (UX)](#user-experience-ux)
@@ -53,6 +58,7 @@ Meetup-Hub is a site for people around the world who is interested in programmin
         - [Features Test](#features-test)
         - [Browser](#browser)
         - [Responsiveness](#responsiveness)
+- [Bugs](#bugs)
 - [Technologies](#technologies)
 - [Deployment](#deployment)
     - [Deployment Github Pages](#deployment-github-pages)
@@ -383,7 +389,16 @@ Tested the features and that everything looks the same on Firefox, Google Chrome
 #### Responsiveness
 All the pages was tested with different screen sizes through Developer Tools in the Google Chrome Browser.
 
+[Am I Responsive?](https://ui.dev/amiresponsive?url=https://bjornrodin.github.io/programmers-meetup-hub/)
+
 ![Responsiveness](readme-images/Responsive-test.JPG)
+
+## Bugs
+- A bug was discovered in the navigation bar in the early stages. I used the 'float' attribute to keep the logo on the left and the bar itself on the right, but when changing screen size to smaller widths it didn't work with the button I was implementing because the text stacked in a weird way. So after some researching I changed from 'float' to 'flex' instead to better control the elements. Which worked perfectly.
+- Also related to the navigation bar I had some issues with it not showing over certain elements when scrolling. However, I quickly realized I could use the 'z-index' to resolve the issue so the navigation bar appears above everything else.
+- When first adding all the images I didn't expect them to be so heavy to load for the page. So I decided to change that in the end of the project and so I did. First I converted them into Webp format to lower the size of the images, in addition to that I also resized them to lower the sizes of the files even more. This had a big impact on the performance.
+- My mentor discovered that I had a few 'id' css selectors that he felt was redundant to have. He explained that for this project it is no big deal but in future projects and in my upcoming career it is a better practice to save Ids for javascript and other things that really has to target a specific segment. For that reason I cleared out all Ids that I could from my code and changed them to classes instead. It worked perfectly fine.
+- Images on the home and programming page is horizontal which mean they work perfectly fine for larger screen widths. When I started work on the responsiveness of the site I quickly realized that they looked very bad on smaller screens because they were too small. So for smaller screens I specifically had to change to vertical images instead to fit the content better and fill their box in a more satisfying way.
 
 ## Technologies
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used as the main language for the project.
@@ -405,6 +420,7 @@ All the pages was tested with different screen sizes through Developer Tools in 
 - [Contrast Grid](https://contrast-grid.eightshapes.com/) Was used to see how the different color would contrast against black and white texts.
 - [Cloudconvert](https://cloudconvert.com/) was used to convert images to WEBP-format.
 - [RedKetchup Image Resizer](https://redketchup.io/image-resizer) was used to resize images to improve performance.
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev) was used to give the reader a quick and easy way to see the responsiveness of the site and also to to have a image for the introduction of the Readme.md.
 
 ## Deployment 
 
