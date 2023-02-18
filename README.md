@@ -421,7 +421,7 @@ All the pages was tested with different screen sizes through Developer Tools in 
 - [Contrast Grid](https://contrast-grid.eightshapes.com/) Was used to see how the different color would contrast against black and white texts.
 - [Cloudconvert](https://cloudconvert.com/) was used to convert images to WEBP-format.
 - [RedKetchup Image Resizer](https://redketchup.io/image-resizer) was used to resize images to improve performance.
-- [Am I Responsive](https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev) was used to give the reader a quick and easy way to see the responsiveness of the site and also to to have a image for the introduction of the Readme.md.
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev) was used to give the reader a quick and easy way to see the responsiveness of the site and also to have a image for the introduction of the Readme.md.
 
 ## Deployment 
 
