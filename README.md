@@ -49,7 +49,7 @@ Meetup-Hub is a site for people around the world who is interested in programmin
         - [W3C CSS Validation Service](#w3c-css-validation-service)
         - [Google Lighthouse Performance Test](#google-lighthouse-performance-test)
             - [Warnings](#warnings)
-    [Manual Testing](#manual-testing)
+    - [Manual Testing](#manual-testing)
         - [Features Test](#features-test)
         - [Browser](#browser)
         - [Responsiveness](#responsiveness)
